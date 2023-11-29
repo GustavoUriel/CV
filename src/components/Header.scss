@@ -1,0 +1,24 @@
+@import "../scss/vars";
+@import "../scss/generals";
+
+.header-base {
+  display: inline-block;
+  *display: inline;
+  background-color: $back_Dark;
+  color: $back_Light;
+}
+.header-logo {
+  display: inline-block;
+  *display: inline;
+  width: 10%;
+}
+.header-menu {
+  display: inline-block;
+  *display: inline;
+  width: 60%;
+}
+.header-widgetUser {
+  display: inline-block;
+  *display: inline;
+  width: 20%;
+}

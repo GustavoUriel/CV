@@ -1,0 +1,63 @@
+.border-rounded {
+  border-style: solid;
+  border: 1px solid #003459;
+  border-radius: 5px;
+  margin: 5px;
+  padding: 5px;
+}
+
+.nombre {
+  min-height: 20vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(80px + 2vmin);
+  font-weight: 500;
+  background-color: #003459;
+  color: #007ea7;
+}
+
+.titulo {
+  display: flex;
+  text-align: right;
+  margin-left: 15%;
+  color: #003459;
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: calc(30px + 2vmin);
+  font-weight: 500;
+}
+
+.estudio {
+  display: flex;
+  text-align: right;
+  margin-left: 15%;
+  color: #003459;
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: calc(20px + 2vmin);
+  font-weight: 450;
+}
+
+.estudio_sub {
+  display: flex;
+  text-align: right;
+  margin-left: 15%;
+  color: #003459;
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: calc(10px + 2vmin);
+  font-weight: 400;
+}
+
+.otrasexperiencias {
+  display: flex;
+  text-align: right;
+  margin-left: 15%;
+  color: #003459;
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: calc(10px + 2vmin);
+  font-weight: 200;
+}/*# sourceMappingURL=AboutMe.css.map */

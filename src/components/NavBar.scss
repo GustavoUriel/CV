@@ -1,0 +1,27 @@
+@import "../scss/vars";
+@import "../scss/generals";
+
+.Nav-Style {
+  background-color: $back_Dark;
+  color: $back_Light;
+}
+
+#responsive-navbar-nav {
+  font-size: 20px;
+  justify-content: center;
+  width: 100%;
+}
+
+.nav-link {
+  margin: 10px;
+}
+
+@media (max-width: 992px) {
+  .Nav-Style {
+    flex-direction: row-reverse;
+  }
+  .Logo-Brand,
+  .navbar-toggler {
+    margin: 20px;
+  }
+}
