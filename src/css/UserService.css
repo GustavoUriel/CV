@@ -1,0 +1,21 @@
+.service-card {
+  border-style: solid;
+  border: 1px solid #003459;
+  border-radius: 5px;
+  margin: 5px;
+  padding: 5px;
+  background-color: #ffffff;
+}
+
+.service-card-body {
+  margin: 0;
+  padding: 0;
+}
+
+.gray-text {
+  color: gray;
+}
+
+.small-text {
+  font-size: small;
+}/*# sourceMappingURL=UserService.css.map */
