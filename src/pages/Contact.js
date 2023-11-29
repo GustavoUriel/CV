@@ -8,9 +8,7 @@ export default function Contact() {
   return (
     <div id="seccionContanos">
       <div class="row row-content">
-        <div class="col-12">
-          <h3>Información de Contacto</h3>
-        </div>
+
         <div class="col-12 col-sm-4 offset-sm-1">
           <h5>Nuestra dirección</h5>
           <address>

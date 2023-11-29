@@ -1,8 +1,10 @@
 {
-  "name": "Proyect_React",
+  "homepage" : "https://gustavouriel.github.io/cv",
+  "name": "proyect-cv",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^6.5.0",
     "@material-ui/core": "^4.11.4",
     "@popperjs/core": "^2.9.2",
     "@testing-library/jest-dom": "^5.12.0",
@@ -11,6 +13,7 @@
     "bootstrap": "^4.6.0",
     "firebase": "^8.0.2",
     "font-awesome": "^4.7.0",
+    "homepage": "",
     "react": "^17.0.2",
     "react-alert": "^7.0.3",
     "react-alert-template-basic": "^1.0.2",
@@ -22,6 +25,8 @@
     "web-vitals": "^1.1.2"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build", // "gh-pages -b master -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",

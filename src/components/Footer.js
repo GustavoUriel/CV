@@ -7,7 +7,6 @@ export default function Footer() {
       ---------------------------------------------------------------------------
       <div class="row justify-content-center">
         <div class="col-7 col-sm-5  ">
-          <h4>Contact information</h4>
           <h5>Gustavo Uriel Levcovich</h5>
           <h5>+54 9 11 5833 4832</h5>
           <h5>glevcovich@outlook.com</h5>
@@ -18,7 +17,7 @@ export default function Footer() {
       </div>
       <div class="row justify-content-center">
         <div class="col-auto">
-          <p>© Copyright 2021 Gustavo Uriel Levcovich</p>
+          <p>© Copyright 2022 Gustavo Uriel Levcovich</p>
         </div>
       </div>
     </div>
